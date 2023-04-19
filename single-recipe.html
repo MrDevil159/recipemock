@@ -12,8 +12,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
+    <script>
+      AOS.init();
+    </script>
     <nav class="navbar">
       <div class="nav-center">
         <div class="nav-header">
@@ -36,7 +41,7 @@
         </div>
       </div>
     </nav>
-    <main class="page">
+    <main data-aos="zoom-in" class="page">
       <div class="recipe-page">
         <section class="recipe-hero">
           <img

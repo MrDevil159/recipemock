@@ -488,7 +488,7 @@ Recipes
 }
 .recipe-img:hover {
   /* opacity: 0.5; */
-  scale: 1.2;
+  scale: 1.1;
   filter: drop-shadow(2px 4px 6px black);
   /* transition-delay: 1s; */
 } 
@@ -632,6 +632,7 @@ Tags Page
 }
 .tag:hover {
   background: var(--primary-500);
+  scale: 1.1;
 }
 .tag h5,
 .tag p {

@@ -12,8 +12,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
     />
     <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
+    <script>
+      AOS.init();
+    </script>
     <nav class="navbar">
       <div class="nav-center">
         <div class="nav-header">
@@ -36,9 +41,9 @@
         </div>
       </div>
     </nav>
-    <main class="page">
+    <main data-aos="zoom-in" class="page">
       <section class="about-page">
-        <article>
+        <article  data-aos="fade-left">
           <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, quasi.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, officia? Deserunt, corporis! Repellendus pariatur inventore nam architecto facilis obcaecati at!
@@ -49,6 +54,7 @@
           <a href="contact.html" class="btn"> contact </a>
         </article>
         <img
+        data-aos="fade-right"
           src="./assets/about.jpeg"
           alt="Person Pouring Salt in Bowl"
           class="img about-img"
